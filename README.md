@@ -109,6 +109,7 @@ Bat file to execute the source: eachtwitterGeo.bat
 Input file with search parameters: AllTagsGeo.csv
 Bat file to execute multiple instance : 03GeoTwitter.bat
 Output folder : tweetsSearch\
+Lib: Library to read from input file.
 ```
 
 2) To run the example double click on 03GeoTwitter.bat, It is important to have a look at how the input is structure in csv file.
