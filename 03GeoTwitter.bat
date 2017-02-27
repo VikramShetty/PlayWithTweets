@@ -1,0 +1,1 @@
+Start cmd /k "E:\Watir\eachtwitterGeo.bat E:\Watir\AllTagsGeo.csv"

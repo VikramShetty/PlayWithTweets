@@ -98,3 +98,20 @@ https://github.com/mozilla/geckodriver/releases
 
 To run all tests if you are planning to add 
 E:\Watir>rspec
+
+#Instructure to run a search example, Geo location based
+
+1) Struture of the code file
+```
+All my default location is E:\Watir> (You can make changes according to your machine)
+Actual source: twitterGeo.rb
+Bat file to execute the source: eachtwitterGeo.bat
+Input file with search parameters: AllTagsGeo.csv
+Bat file to execute multiple instance : 03GeoTwitter.bat
+Output folder : tweetsSearch\
+```
+
+2) To run the example double click on 03GeoTwitter.bat, It is important to have a look at how the input is structure in csv file.
+Each letter is significant to the output you get. The other details will be updated in few days.
+
+
