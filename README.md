@@ -16,28 +16,29 @@ Full video @ https://www.youtube.com/watch?v=pvTxnTkhzIc&index=1&list=PLUY1lsOTt
 
 2. Download, Extract DevKit &Install 
     Download: 
+```	
     Extract in Ruby folder 
     Install -- cmd (go to DevKit folder, search for cmd, the cmd will open with that path)
     cd \Ruby\devkit
     ruby dk.rb init
     ruby dk.rb install
+```
 
 3. Install libraries (gems) 
-   C:\Users\you> gem install --no-ri --no-rdoc rspec
+```
+ C:\Users\you> gem install --no-ri --no-rdoc rspec
  C:\Users\you> gem install --no-ri --no-rdoc win32console
  C:\Users\you> gem install --no-ri --no-rdoc watir-webdriver
  C:\Users\you> gem install --no-ri --no-rdoc cucumber
  C:\Users\you> gem install selenium-webdriver
+```
 
-In case of error: C:/Ruby23-x64/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require': cannot load such file -- watir (LoadError)
-        from C:/Ruby23-x64/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
-        from demo.rb:1:in `<main>'
+4. Install watir 
 
-Install from cmd 
- 
+``` 
 gem update --system --no-rdoc --no-ri
 gem install watir --no-rdoc --no-ri
-
+```
 4. Install Firefox web browser 
  
 5. Run the program 
